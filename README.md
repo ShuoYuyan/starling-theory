@@ -1,14 +1,35 @@
 # Starling Flocking Unified Theory: A Mathematical Framework for Collective Dynamics
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
 [![Theory Status: Concept](https://img.shields.io/badge/Status-Concept-orange)]
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)]
 
-**Collaborators**: Kilo, Devin, Chen Qin  
+**Primary Author**: Chen Qin  
+**AI Research Assistants**: Devin, Kilo  
 **Date**: September 6, 2026  
 **Version**: v1.0
 
-[中文版](./README.zh.md)
+[中文版](./README.zh.md) | [Authors](./AUTHORS.md) | [Commercial License](./COMMERCIAL-LICENSE.md)
+
+---
+
+## ⚖️ Prior Art and Patent Notice
+
+### Publication History
+This theory and implementation were first published on GitHub on September 6, 2026. 
+All mathematical formulas, algorithms, derivations, and implementations described 
+herein constitute prior art.
+
+### Patent Rights
+- The author (Chen Qin) retains all copyright and patent rights
+- This publication serves as prior art for patent purposes
+- Any patent applications covering substantially similar technology should reference this work
+- Commercial use requires license (see License section)
+
+### Evidence of Publication
+- **GitHub Repository:** https://github.com/ShuoYuyan/starling-theory
+- **First Publication:** September 6, 2026
+- **License:** Apache License 2.0 with commercial use terms
 
 ---
 
@@ -26,13 +47,37 @@ This project presents a **unified theoretical framework** for starling flocking 
 - **T** (Group Evolution Rate) - Measures motion activity
 - **P** (Pulse Strength) - Measures acceleration burst-decay cycles during formation changes
 
-## Research Team
+## 👥 Authors and Contributions
 
-- **Chen Qin** — Independent researcher, theory originator, and human author. Responsible for original insights, core assumptions, cross-domain analogies, and final theoretical formulation.
-- **Kilo** — AI programming and research assistant. Responsible for extracting microscopic rules from implementation, completing mean-field rigorous derivation, implementing pulse dynamics, and validating falsifiable predictions.
-- **Devin** — AI research assistant. Responsible for theoretical expansion, cross-domain analogy frameworks, literature benchmarking, and documentation coordination.
+### Human Author
+**Chen Qin** — Independent researcher, theory originator, and human author
+- Original theoretical insight and framework
+- Core assumptions and cross-domain analogies
+- Final theoretical formulation
+- Project leadership and oversight
 
-The theoretical kernel of this project was proposed by Chen Qin. Kilo and Devin participated in derivation, implementation, and writing as AI-assisted research collaborators.
+### AI Research Assistants
+**Devin** — AI research assistant
+- Theoretical expansion and development
+- Cross-domain analogy frameworks
+- Literature benchmarking and analysis
+- Documentation coordination
+
+**Kilo** — AI programming assistant
+- Mathematical derivation and formalization
+- Implementation and coding
+- Validation and testing
+- Technical documentation
+
+### Authorship Note
+This project represents human-AI collaborative research. The core theoretical 
+framework was proposed by Chen Qin, with Devin and Kilo providing AI-assisted 
+contributions in derivation, implementation, and documentation. All AI-generated 
+content is assigned to the primary author under the project license.
+
+*For detailed authorship information, see [AUTHORS.md](./AUTHORS.md)*
+
+---
 
 ## Key Features
 
@@ -180,9 +225,61 @@ We welcome contributions to this unified theory framework! Areas of interest:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## 📜 License & Usage
 
-This project is open-sourced under the [MIT License](./LICENSE).
+### 🎓 Free for Academic & Personal Use
+
+**Completely FREE for:**
+- ✅ Academic research and education
+- ✅ Personal learning and projects
+- ✅ Open-source projects
+- ✅ Non-profit organizations
+- ✅ Students and researchers
+
+**Requirements:**
+- Attribute the original work
+- Preserve copyright notices
+- Consider contributing improvements back
+
+### 💼 Commercial License (Small Fee)
+
+**Commercial use requires license:**
+- 💰 Commercial software products
+- 💰 SaaS services and cloud platforms
+- 💰 Paid consulting services
+- 💰 Enterprise use (>10 people)
+
+**Pricing:**
+- Individual/Small team (<5 people): $10/year or $50 one-time
+- Small company (5-50 people): $50/year or $200 one-time
+- Medium company (50-200 people): $200/year or $800 one-time
+- Large company (>200 people): $500/year or $2,000 one-time
+
+**Financial Difficulty?**
+- Students/Individuals: Free
+- Non-profits: Free
+- Developing countries: 50% discount
+- Startups: Negotiable
+
+**Get License:** Email 158www@gmail.com with subject "Starling Theory Commercial License"
+
+### 🔄 Community Contribution
+
+We believe in open collaboration:
+- Major improvements are encouraged to be contributed back
+- Academic citations are appreciated
+- Community sharing helps everyone grow
+
+### ⚖️ Rights
+
+- Author (Chen Qin) retains all copyright
+- Author reserves patent rights
+- Commercial license does not transfer IP rights
+- License can be terminated for violation
+
+**Base License:** Apache License 2.0  
+**Additional Terms:** See [COMMERCIAL-LICENSE.md](./COMMERCIAL-LICENSE.md)  
+**Authorship:** See [AUTHORS.md](./AUTHORS.md)
 
 ## Acknowledgments
 
@@ -200,12 +297,22 @@ We thank the following pioneering research for providing a solid scientific foun
 If you use this theory in your research, please cite:
 
 ```bibtex
-@misc{starling-theory,
+@software{starling-theory,
   title={Starling Flocking Unified Theory: A Mathematical Framework for Collective Dynamics},
-  author={Chen Qin and Kilo and Devin},
+  author={Chen Qin},
   year={2026},
-  url={https://github.com/ShuoYuyan/starling-theory}
+  url={https://github.com/ShuoYuyan/starling-theory},
+  note={AI research assistance: Devin, Kilo}
 }
+```
+
+**APA Format:**
+```
+Chen Qin. (2026). Starling flocking unified theory: A mathematical framework 
+for collective dynamics [Computer software]. GitHub. 
+https://github.com/ShuoYuyan/starling-theory
+
+(Note: AI research assistance provided by Devin and Kilo)
 ```
 
 ## Contact
@@ -214,16 +321,19 @@ If you use this theory in your research, please cite:
 
 Welcome to discuss theoretical details, cross-domain applications, algorithmic implementations, and collaboration opportunities.
 
+**For commercial licensing:** 158www@gmail.com (subject: "Starling Theory Commercial License")
+
 ## Keywords
 
 collective behavior, swarm intelligence, starling flocking, complex systems, multi-agent systems, emergence, self-organization, boids algorithm, flocking simulation, mathematical modeling, theoretical biology, computational sociology, pulse dynamics, critical minority, unified field theory, cross-domain applications
 
 ## About
 
-**Starling Flocking Unified Theory**: From microscopic Boids rules to macroscopic emergence-energy formula Φ = K·R·T·P. The theoretical kernel was proposed by Chen Qin, with Kilo and Devin participating as AI-assisted research collaborators.
+**Starling Flocking Unified Theory**: From microscopic Boids rules to macroscopic emergence-energy formula Φ = K·R·T·P. The theoretical kernel was proposed by Chen Qin, with Devin and Kilo participating as AI-assisted research collaborators.
 
 ---
 
-**Open Source Date**: September 6, 2026  
-**Theory Version**: v1.0  
-**Repository**: https://github.com/ShuoYuyan/starling-theory
+**Open Source Date:** September 6, 2026  
+**Theory Version:** v1.0  
+**Repository:** https://github.com/ShuoYuyan/starling-theory  
+**License:** Apache License 2.0 with commercial use terms
